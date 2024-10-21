@@ -256,7 +256,6 @@ Pertanyaan dan Tugas
     <h2>Form dengan Dropdown dan Listbox Multiple Selection</h2>
 
     <form>
-      <!-- Dropdown Menu -->
         <label for="dropdown">Pilih Motor:</label>
         <select id="dropdown" name="dropdown">
             <option value="Beat">beat</option>
@@ -265,8 +264,6 @@ Pertanyaan dan Tugas
             <option value="CBR250RR">CBR250RR</option>
         </select>
         <br><br>
-
-        <!-- Listbox dengan Multiple Selection -->
         <label for="listbox">Pilih Nama (multiple selection):</label>
         <select id="listbox" name="listbox" size="5" multiple>
             <option value="udin">udin</option>
@@ -276,8 +273,6 @@ Pertanyaan dan Tugas
             <option value="awan">awan</option>
         </select>
         <br><br>
-
-        <!-- Tombol Submit -->
         <input type="submit" value="Submit">
     </form>
 
