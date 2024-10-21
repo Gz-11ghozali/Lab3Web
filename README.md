@@ -241,6 +241,59 @@ Style pada input dan textarea digunakan untuk memperindah tampilan elemen-elemen
 
 ![Screenshot 2024-10-14 014553](https://github.com/user-attachments/assets/96ee04c7-394f-4850-bebe-7a286b310fee)
 
+Pertanyaan dan Tugas
+1.	Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form dengan Dropdown dan Listbox</title>
+</head>
+<body>
 
+    <h2>Form dengan Dropdown dan Listbox Multiple Selection</h2>
+
+    <form>
+        <!-- Dropdown Menu -->
+        <label for="dropdown">Pilih Item:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+            <option value="item4">Item 4</option>
+        </select>
+        <br><br>
+
+        <!-- Listbox dengan Multiple Selection -->
+        <label for="listbox">Pilih Nama (multiple selection):</label>
+        <select id="listbox" name="listbox" size="5" multiple>
+            <option value="udin">udin</option>
+            <option value="dudun">dudun</option>
+            <option value="iki">iki</option>
+            <option value="faisal">faisal</option>
+            <option value="awan">awan</option>
+        </select>
+        <br><br>
+
+        <!-- Tombol Submit -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
+Penjelasan:
+Dropdown Menu:
+
+Menggunakan elemen <select> dengan nama dropdown. Setiap item di dalam dropdown diwakili oleh elemen <option>.
+Listbox dengan Multiple Selection:
+
+Untuk membuat listbox yang mendukung multiple selection, gunakan atribut multiple pada elemen <select>. Anda juga bisa mengatur ukuran tampilan listbox menggunakan atribut size.
+Form Submission:
+
+Ketika form ini di-submit, nilai yang dipilih dari dropdown dan listbox akan dikirim sebagai bagian dari data form.
+
+![Screenshot 2024-10-20 195135](https://github.com/user-attachments/assets/78e61f14-a361-4868-a666-b73d7696615d)
 
