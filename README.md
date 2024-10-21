@@ -256,13 +256,13 @@ Pertanyaan dan Tugas
     <h2>Form dengan Dropdown dan Listbox Multiple Selection</h2>
 
     <form>
-        <!-- Dropdown Menu -->
-        <label for="dropdown">Pilih Item:</label>
+      <!-- Dropdown Menu -->
+        <label for="dropdown">Pilih Motor:</label>
         <select id="dropdown" name="dropdown">
-            <option value="item1">Item 1</option>
-            <option value="item2">Item 2</option>
-            <option value="item3">Item 3</option>
-            <option value="item4">Item 4</option>
+            <option value="Beat">beat</option>
+            <option value="Ducati">Ducati</option>
+            <option value="H2R">H2R</option>
+            <option value="CBR250RR">CBR250RR</option>
         </select>
         <br><br>
 
@@ -295,5 +295,6 @@ Form Submission:
 
 Ketika form ini di-submit, nilai yang dipilih dari dropdown dan listbox akan dikirim sebagai bagian dari data form.
 
-![Screenshot 2024-10-20 195135](https://github.com/user-attachments/assets/78e61f14-a361-4868-a666-b73d7696615d)
+![image](https://github.com/user-attachments/assets/c0ec57ee-9ccb-4575-b34e-b46704574e24)
+
 
